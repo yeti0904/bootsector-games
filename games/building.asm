@@ -1,6 +1,11 @@
 ; building game
 ; made by yeti0904 in 19th December 2022
 ; my first boot sector game
+;
+; Controls:
+; Move the player - WASD
+; Place blocks around the player - IJKL
+; Change block mode (Place/Delete) - Spacebar
 
 [bits 16]
 [org 0x7C00]
